@@ -1,0 +1,178 @@
+
+ul,li{
+  list-style: none;
+}
+
+$height:50px;
+$background:#fff;
+$color:rgb(7, 166, 230) ;
+
+nav{
+height: $height;
+}
+
+.my-container{
+height: $height;
+.navbar-default {
+ background: none;
+ border: none;
+ background: $background;
+ .navbar-header{
+   .navbar-brand{
+ padding-top: 5px;
+ }
+ }
+ .navbar-right {
+   .navbar-brand:nth-child(1){
+   margin-right: 25px;
+ }
+ .navbar-brand{
+   border: 1px solid grey;
+   border-radius: 5px;
+   height: 25px;
+   margin-top: 15px;
+   line-height: 1;
+   font-size: 16px;
+ }
+ }
+ .navbar-collapse {
+   background: $background;
+   .navbar-nav{
+   margin-top: 15px;
+   background: $background;
+   li{
+     a {
+     margin-left:5px;
+     border-radius: 5px;
+     height: 30px;
+     line-height: 0;
+     &:hover{
+       background: #0088cc;
+       color: #FFF;
+     }
+   }
+ }
+ .active {
+   a{
+   background: #0088cc;
+   color: #FFF;
+ }
+}
+
+ }
+ }
+ .dropdown{
+   .dropdown-menu{
+      li{
+        a{
+   line-height: 2;
+ }
+ }
+}
+ }
+
+ .navbar-toggle {
+   background: #242524;
+   .icon-bar {
+     background-color: #FFF;
+   }
+ }
+}
+}
+
+.content {
+  .he1{
+    transform: translateY(65px);
+  }
+  .he2{
+  transform: translateY(150px);
+}
+ .he3{
+  height: 300px;
+}
+.my-text{
+   h1{
+  color: $color;
+  }
+ul{
+  transform: translateX(-35px);
+  }
+  li{
+    font-size: 20px;
+  }
+  p{
+    font-size: 18px;
+    color: $color;
+  }
+ }
+ .my-text1{
+   margin: 150px auto;
+   h1{
+   color: $color;
+ }
+ p{
+   font-size: 18px;
+ }
+ }
+}
+
+.my-backg{
+  height: 700px;
+  background: rgb(205, 228, 225);
+}
+
+.my-backg2{
+  height: 600px;
+  background:url("./image/indexB-img03.jpg") no-repeat 50% 50%;
+}
+
+.my-content{
+  margin-top: 80px;
+  .my-line{
+    margin-bottom: 30px;
+    h4{
+      color: rgb(97, 117, 242);
+    }
+  }
+}
+
+.my-backg3{
+  background: #232422;
+  color: #e0d4eb;
+  .my-text2{
+    ul{
+    transform: translateX(-40px);
+  }
+  li{
+    margin-top:10px;
+    a{
+      color: #ebd8e6;
+    }
+  }
+ }
+ .my-h{
+   padding-top: 20px;
+ }
+ .my-h1{
+   padding-top: 50px;
+ }
+}
+
+.my-top{
+  position: fixed;
+  right: 20px;
+  bottom: 35px;
+  width: 60px;
+  height: 60px;
+}
+.navbar-header{
+  position: relative;
+}
+
+@media all and (max-width:766px) {
+  .navbar-right{
+    position: absolute;
+    top: 0;
+    right: 80px;
+  }
+}
