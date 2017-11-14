@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.my-container{
+  background: #cf4646;
+  height: 430px;
+}
+
+.my-navbar{
+  background: none;
+  border: none;
+}
+
+.my-navbar .navbar-brand {
+    color: #ebd8ea;
+}
+
+.my-navbar .navbar-brand:hover{
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ebd8ea;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.jumbotron{
+  background: none;
+  color: #fff;
+  margin-top: 30px;
+}
+.jumbotron .btn-default{
+  background: none;
+  color: #fff;
+}
+
+.my-navbar .navbar-right{
+  background: #cf4646;
+}
