@@ -1,4 +1,4 @@
 # README
 aikuai  
 cainiaoyz  
-(http://laizhicheng.com/)[知晓]
+[知晓](http://laizhicheng.com/)
