@@ -11,7 +11,7 @@
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
-      ul{
+      ul,li{
         list-style: none;
       }
       .my-container{
@@ -216,7 +216,38 @@
           cursor: pointer;
         }
 
+        .content4{
+          background-color: #1f1f27;
+          height: 200px;
+          width: 100%;
+          margin-top:30px;
+          /*margin: 0 auto;*/
+        }
 
+        .content4 .con-4{
+          padding-top:30px;
+          /*text-align: center;*/
+        }
+
+        .content4 .row .ban-ul ul{
+          height: 25px;
+          /*text-align: center;*/
+        }
+
+        .content4 .row .ban-ul ul li{
+          width:80px;
+          height:25px;
+          float: left;
+        }
+
+        .content4 .row .ban-ul ul li a{
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .content4 .c-font{
+          color: #9393a7;
+        }
 
     </style>
   </head>
@@ -435,13 +466,40 @@
 
       <div class="container">
         <div class="row">
-          <col-md-12 class="col-sm-12 col-xs-12 text-center">
+          <div class="col-md-12 col-sm-12 col-xs-12 text-center">
             <div class="ban"><a href="#">马上申请合作</a></div>
-          </col-md-12>
+          </div>
         </div>
       </div>
     </div>
 
+    <div class="content4">
+      <div class="container con-4">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12  col-md-offset-4">
+            <div class="ban-ul">
+              <ul>
+                <li><a href="#">关于菜鸟</a></li>
+                <li><a href="#">菜鸟品牌</a></li>
+                <li><a href="#">新闻/动态</a></li>
+                <li><a href="#">廉正举报</a></li>
+                <li><a href="#">法律政策</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+            <div class="c-font">
+              <li>© 2015-2017 菜鸟 版权所有</li><br>
+              <li>增值电信业务经营许可证： 浙B2-20160216</li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="./js/jquery-3.0.0.min.js" charset="utf-8"></script>
     <script src="./dist/js/bootstrap.min.js" charset="utf-8"></script>
